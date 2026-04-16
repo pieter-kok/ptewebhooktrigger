@@ -7,7 +7,7 @@ page 90301 "Generic Webhook Rel. Tables"
     Editable = false;
     PageType = List;
     SourceTable = "Generic Webhook Rel. Table";
-    UsageCategory = Administration;
+    UsageCategory = None;
 
     layout
     {
