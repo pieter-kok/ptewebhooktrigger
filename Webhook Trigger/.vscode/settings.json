@@ -23,7 +23,7 @@
   "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
   "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
   "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-  "CRS.ObjectNameSuffix": " PTE",
+  //"CRS.ObjectNameSuffix": " PTE",
   "CRS.RemoveSuffixFromFilename": true,
   "CRS.AlSubFolderName": "src"
 }
