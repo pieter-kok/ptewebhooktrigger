@@ -1,12 +1,12 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 using System.Reflection;
 
-table 90301 "Generic Webhook Rel. Table"
+table 90301 "Gen. Webhook Rel. Table PTE"
 {
     Caption = 'Generic Rel. Table';
     DataClassification = CustomerContent;
-    LookupPageId = "Generic Webhook Rel. Tables";
-    DrillDownPageId = "Generic Webhook Rel. Tables";
+    LookupPageId = "Gen. Webhook Rel. Tables PTE";
+    DrillDownPageId = "Gen. Webhook Rel. Tables PTE";
 
     fields
     {
@@ -14,7 +14,7 @@ table 90301 "Generic Webhook Rel. Table"
         {
             AllowInCustomizations = AsReadWrite;
             Caption = 'Table ID';
-            TableRelation = "Generic Webhook";
+            TableRelation = "Gen. Webhook PTE";
             ToolTip = 'Specifies the id of the generic webhook table.';
         }
         field(2; "Related Table ID"; Integer)

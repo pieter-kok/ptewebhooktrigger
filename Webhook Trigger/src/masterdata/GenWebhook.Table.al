@@ -1,12 +1,12 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 using System.Reflection;
 
-table 90300 "Generic Webhook"
+table 90300 "Gen. Webhook PTE"
 {
     Caption = 'Generic Webhook';
     DataClassification = CustomerContent;
-    DrillDownPageId = "Generic Webhooks";
-    LookupPageId = "Generic Webhooks";
+    DrillDownPageId = "Gen. Webhooks PTE";
+    LookupPageId = "Gen. Webhooks PTE";
 
     fields
     {

@@ -1,11 +1,11 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 
-page 90300 "Generic Webhooks"
+page 90300 "Gen. Webhooks PTE"
 {
     ApplicationArea = All;
     Caption = 'Generic Webhooks';
     PageType = List;
-    SourceTable = "Generic Webhook";
+    SourceTable = "Gen. Webhook PTE";
     UsageCategory = Administration;
 
     layout
@@ -27,7 +27,7 @@ page 90300 "Generic Webhooks"
             {
                 Caption = 'Related Tables';
                 Image = Relationship;
-                RunObject = page "Generic Webhook Rel. Tables";
+                RunObject = page "Gen. Webhook Rel. Tables PTE";
                 RunPageLink = "Table ID" = field("Table ID");
                 ToolTip = 'View and manage related tables for the selected generic webhook.';
             }

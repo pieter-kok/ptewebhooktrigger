@@ -1,0 +1,30 @@
+{
+    "name": "Bluace Ruleset",
+    "rules": [
+        {                    
+            "id": "PTE0012",
+            "action": "None",            
+            "justification": "InternalsVisibleTo should not be used as a security feature: no warning necessary as this is always used for the test app."
+        },           
+		{
+			"id": "AS0081",
+            "action": "None",            
+            "justification": "InternalsVisibleTo should not be used as a security feature: no warning necessary as this is always used for the test app."
+		},
+		{
+			"id": "AA0232",
+            "action": "None",            
+            "justification": "The FlowField of a table should be indexed: false positives are raised by this rule which cannot be solved."
+		},      
+		{                    
+            "id": "AC0019",
+            "action": "None",            
+            "justification": "Zero (0) Enum value should be reserved for Empty Value: disabled, not true for all functionality (AL Cops)"
+        },
+		{
+			"id": "DC0004",
+			"action": "None",
+			"justification": "Public procedure requires XML documentation. (AL Cops)"
+		}
+    ]
+}
