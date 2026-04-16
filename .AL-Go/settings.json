@@ -4,7 +4,7 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "appDependencyProbingPaths": [  
+  "appDependencyProbingPaths": [
     {
       "repo": "https://github.com/BluaceBV/appsourcetechmgt",
       "version": "latest",
