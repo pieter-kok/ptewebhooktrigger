@@ -1,18 +1,20 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 using System.Reflection;
 
-table 90300 "Gen. Webhook PTE"
+table 90300 "Webhook PTE"
 {
-    Caption = 'Generic Webhook';
+    Caption = 'Webhook';
     DataClassification = CustomerContent;
-    DrillDownPageId = "Gen. Webhooks PTE";
-    LookupPageId = "Gen. Webhooks PTE";
+    DrillDownPageId = "Webhook List PTE";
+    LookupPageId = "Webhook List PTE";
 
     fields
     {
         field(1; "Table ID"; Integer)
         {
+            BlankZero = true;
             Caption = 'Table ID';
+            NotBlank = true;
             TableRelation = AllObj."Object ID" where("Object Type" = const(Table));
             ToolTip = 'Specifies the id of the table that is used to trigger the generic webhook.';
         }

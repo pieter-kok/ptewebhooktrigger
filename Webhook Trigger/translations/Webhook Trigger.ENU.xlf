@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Webhook Trigger">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 307717598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook</source>
+          <target state="translated">Webhook</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 307717598 - Field 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the id of the table that is used to trigger the generic webhook.</source>
+          <target state="translated">Specifies the id of the table that is used to trigger the generic webhook.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook PTE - Field Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 307717598 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <target state="translated">Table ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook PTE - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 307717598 - Field 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the table that is used to trigger the generic webhook.</source>
+          <target state="translated">Specifies the name of the table that is used to trigger the generic webhook.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook PTE - Field Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 307717598 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <target state="translated">Table Name</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook PTE - Field Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Rel. Table</source>
+          <target state="translated">Webhook Rel. Table</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 2204602840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the id of the related table.</source>
+          <target state="translated">Specifies the id of the related table.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Related Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 2204602840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Table ID</source>
+          <target state="translated">Related Table ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Related Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 145100610 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the related table.</source>
+          <target state="translated">Specifies the name of the related table.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Related Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 145100610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Table Name</source>
+          <target state="translated">Related Table Name</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Related Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the id of the generic webhook table.</source>
+          <target state="translated">Specifies the id of the generic webhook table.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 586265235 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <target state="translated">Table ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Rel. Table PTE - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1570992785 - Method 1144943950 - NamedType 882379327" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be the same as %2 (%3).</source>
+          <target state="translated">%1 cannot be the same as %2 (%3).</target>
+          <note from="Developer" annotates="general" priority="2">%1=FieldCaption Related Table ID, %2=FieldCaption Table ID, %3=Table ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Webhook Rel. Table Helper PTE - Method ValidateRelatedTableId - NamedType InvalidRelatedTableErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3047673986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Card</source>
+          <target state="translated">Webhook Card</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Card PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3047673986 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Card PTE - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3047673986 - Control 432155371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Tables</source>
+          <target state="translated">Related Tables</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Card PTE - Control Webhook Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1148461460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhooks</source>
+          <target state="translated">Webhooks</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1148461460 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook List</source>
+          <target state="translated">Webhook List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook List PTE - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 3323052198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Related Tables</source>
+          <target state="translated">Webhook Related Tables</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Rel. Tables PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2096877140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Subform</source>
+          <target state="translated">Webhook Subform</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Subform PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2326306086 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Trigger</source>
+          <target state="translated">Webhook Trigger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Webhook Trigger PTE - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

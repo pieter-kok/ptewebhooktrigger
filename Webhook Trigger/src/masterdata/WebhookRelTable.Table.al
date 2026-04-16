@@ -1,25 +1,29 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 using System.Reflection;
 
-table 90301 "Gen. Webhook Rel. Table PTE"
+table 90301 "Webhook Rel. Table PTE"
 {
-    Caption = 'Generic Rel. Table';
+    Caption = 'Webhook Rel. Table';
     DataClassification = CustomerContent;
-    LookupPageId = "Gen. Webhook Rel. Tables PTE";
-    DrillDownPageId = "Gen. Webhook Rel. Tables PTE";
+    DrillDownPageId = "Webhook Rel. Tables PTE";
+    LookupPageId = "Webhook Rel. Tables PTE";
 
     fields
     {
         field(1; "Table ID"; Integer)
         {
             AllowInCustomizations = AsReadWrite;
+            BlankZero = true;
             Caption = 'Table ID';
-            TableRelation = "Gen. Webhook PTE";
+            NotBlank = true;
+            TableRelation = "Webhook PTE";
             ToolTip = 'Specifies the id of the generic webhook table.';
         }
         field(2; "Related Table ID"; Integer)
         {
+            BlankZero = true;
             Caption = 'Related Table ID';
+            NotBlank = true;
             TableRelation = AllObj."Object ID" where("Object Type" = const(Table));
             ToolTip = 'Specifies the id of the related table.';
             trigger OnValidate()
@@ -36,6 +40,7 @@ table 90301 "Gen. Webhook Rel. Table PTE"
             ToolTip = 'Specifies the name of the related table.';
         }
     }
+
     keys
     {
         key(PK; "Table ID", "Related Table ID")
@@ -44,11 +49,11 @@ table 90301 "Gen. Webhook Rel. Table PTE"
         }
     }
 
-    local procedure ValidateRelatedTableId()
     var
-        InvalidRelatedTableErr: Label '%1 cannot be the same as %2 (%3).', Comment = '%1=FieldCaption Related Table ID, %2=FieldCaption Table ID, %3=Table ID';
+        WebhookRelTableHelper: Codeunit "Webhook Rel. Table Helper PTE";
+
+    local procedure ValidateRelatedTableId()
     begin
-        if "Related Table ID" = "Table ID" then
-            Error(InvalidRelatedTableErr, "Related Table ID", "Table ID", "Table ID");
+        WebhookRelTableHelper.ValidateRelatedTableId(Rec);
     end;
 }

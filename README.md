@@ -10,10 +10,10 @@ Besides that, the implementation with API pages for a single table is only sendi
 Related data in other tables are not part of the webhook communications. Multiple webhook subscriptions are necessary to achieve that.
 This project adds the possibility to get subscribe to a single webhook to retrieve modifications from multiple and related tables.
 
-## Generic Webhook
-All elements regarding the generic webhook can be found in the folder /src/masterdata/.
+## Webhook
+All elements regarding the webhook can be found in the folder /src/masterdata/.
 
-The table "Generic Webhook" is contains the following fields. 
+The table "Webhook PTE" contains the following fields. 
 - Table ID 
   Data Type: Integer
   Table Relation: Object ID from table AllObj, where Object Type is Table 
@@ -23,17 +23,16 @@ The table "Generic Webhook" is contains the following fields.
   FlowField based on AllObj.Object Name
   Not editable
 
-A list page "Generic Webhooks" is part of the solution that contains both fields.
-The UsageCategory for this page must be Administration.
+A non-editable list page "Webhook List PTE" and a card page "Webhook Card PTE" are part of the solution. Both pages contain both fields. The UsageCategory for the "Webhook List PTE" page must be Administration. The card page has UsageCatergory None.
 
-## Generic Webhook Rel. Table
-All elements regarding the generic webhook rel. table can be found in the folder /src/masterdata/.
+## Webhook Rel. Table
+All elements regarding the webhook rel. table can be found in the folder /src/masterdata/.
 
-The table "Generic Rel. Table" contains all tables that are related to a generic webhook table.
+The table "Webhook Rel. Table PTE" contains all tables that are related to a webhook table.
 This table consists of the following fields
 - Table ID 
   Data Type: Integer
-  Table Relation: Table ID from Generic Webhook
+  Table Relation: Table ID from Webhook
   Part of primary Key
 - Related Table ID 
   Data Type: Integer
@@ -45,19 +44,18 @@ This table consists of the following fields
   FlowField based on AllObj.Object Name
   Not editable
 
-A list page "Generic Webhooks" is part of the solution that contains only the fields Related Table ID and Related Table Name.
-This page can be opened through an action on the Generic Webhooks list page only. It must not be part of a UsageCategory.
+A non-editable list page "Webhook Rel. Tables PTE" is part of the solution that contains only the fields Related Table ID and Related Table Name. On the Webhook Card PTE page, a list part for the related tables is available. This page is called "Webhook Subform PTE. This page also contains both fields. Both pages are set to UsageCategory None.
 
-## Generic Webhook Trigger
-All elements regarding the generic webhook rel. table can be found in the folder /src/processing/.
+## Webhook Trigger
+All elements regarding the webhook trigger can be found in the folder /src/processing/.
 
-The table Generic Webhook Trigger contains the following fields
+The table Webhook Trigger contains the following fields
 - Key
   Data Type: Guid
   Primary Key
 - Trigger Table ID 
   Data Type: Integer
-  Table Relation: Table ID from Generic Webhook
+  Table Relation: Table ID from Webhook
 - Trigger Table Name 
   Data Type: Text[30]
   FlowField based on AllObj.Object Name
@@ -68,16 +66,16 @@ The table Generic Webhook Trigger contains the following fields
   Data Type: RecordId
 - Trigger Insert
   Data Type: Boolean
-  Specifies whether the generic webhook table is inserted
+  Specifies whether the referenced record is inserted
 - Trigger Modify
   Data Type: Boolean
-  Specifies whether the generic webhook table is modified or a related table record is inserted/modified/deleted/renamed
+  Specifies whether the referenced record is modified or a related is inserted/modified/deleted/renamed
 - Trigger Delete
   Data Type: Boolean
-  Specifies whether the generic webhook table is deleted
+  Specifies whether the referenced record is deleted
 - Trigger Rename
   Data Type: Boolean
-  Specifies whether the generic webhook table is renamed
+  Specifies whether the referenced record table is renamed
 - Trigger Guid
   DataType: Guid
 - Source Table ID
@@ -94,14 +92,17 @@ The table Generic Webhook Trigger contains the following fields
   Data Type: RecordId
 - Source Insert
   Data Type: Boolean
-  Specifies which action on the source table triggered creating the generic webhook trigger
+  Specifies which action on the source table triggered creating the webhook trigger
 - Source Modify
   Data Type: Boolean
-  Specifies which action on the source table triggered creating the generic webhook trigger
+  Specifies which action on the source table triggered creating the webhook trigger
 - Source Delete
   Data Type: Boolean
-  Specifies which action on the source table triggered creating the generic webhook trigger
+  Specifies which action on the source table triggered creating the webhook trigger
 - Source Rename
   Data Type: Boolean
-  Specifies which action on the source table triggered creating the generic webhook trigger
-A non-editable list page that has UsageCategory Tasks contains all the mentioned fields.
+  Specifies which action on the source table triggered creating the webhook trigger
+
+A non-editable list page with the name "Webhook Triggers PTE" that has UsageCategory Tasks contains all the mentioned fields.
+
+An API page must be created with ChangeTrackingEnabled. This is the api which will be used by external systems to subscribe webhooks on.

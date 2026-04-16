@@ -1,12 +1,12 @@
 namespace PieterKok.WebhookTrigger.MasterData;
 
-page 90301 "Gen. Webhook Rel. Tables PTE"
+page 90303 "Webhook Rel. Tables PTE"
 {
     ApplicationArea = All;
-    Caption = 'Generic Webhook Related Tables';
+    Caption = 'Webhook Related Tables';
     Editable = false;
     PageType = List;
-    SourceTable = "Gen. Webhook Rel. Table PTE";
+    SourceTable = "Webhook Rel. Table PTE";
     UsageCategory = None;
 
     layout
