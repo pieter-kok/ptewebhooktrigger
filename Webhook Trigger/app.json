@@ -9,23 +9,33 @@
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
-  "dependencies": [],
+  "logo": "./resources/logo.png",
+  "dependencies": [
+    {
+      "id": "12ef662b-30d6-496c-90c8-6a1c7eec25b4",
+      "name": "Technical Management",
+      "publisher": "Bluace BV",
+      "version": "1.20.0.0"
+    }
+  ],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
   "idRanges": [
     {
       "from": 90300,
       "to": 90349
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
+  ]
 }

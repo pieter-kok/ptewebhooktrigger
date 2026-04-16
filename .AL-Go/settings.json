@@ -1,7 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.0/.Modules/settings.schema.json",
-  "country": "us",
+  "country": "nl",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "appDependencyProbingPaths": [  
+    {
+      "repo": "https://github.com/BluaceBV/appsourcetechmgt",
+      "version": "latest",
+      "release_status": "release",
+      "AuthTokenSecret": "GhTokenWorkflow"
+    }
+  ]
 }
