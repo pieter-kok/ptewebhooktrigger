@@ -64,18 +64,9 @@ The table Webhook Trigger contains the following fields
   Data Type: Guid
 - Trigger Record ID
   Data Type: RecordId
-- Trigger Insert
-  Data Type: Boolean
-  Specifies whether the referenced record is inserted
-- Trigger Modify
-  Data Type: Boolean
-  Specifies whether the referenced record is modified or a related is inserted/modified/deleted/renamed
-- Trigger Delete
-  Data Type: Boolean
-  Specifies whether the referenced record is deleted
-- Trigger Rename
-  Data Type: Boolean
-  Specifies whether the referenced record table is renamed
+- Trigger Table Trigger Type
+  Data Type: Enum
+  Specifies the trigger type for the trigger table. When the source table a related table, all trigger types of the source table are considered to be a modification trigger.
 - Trigger Guid
   DataType: Guid
 - Source Table ID
@@ -90,19 +81,14 @@ The table Webhook Trigger contains the following fields
   Data Type: Guid
 - Source Record ID
   Data Type: RecordId
-- Source Insert
-  Data Type: Boolean
-  Specifies which action on the source table triggered creating the webhook trigger
-- Source Modify
-  Data Type: Boolean
-  Specifies which action on the source table triggered creating the webhook trigger
-- Source Delete
-  Data Type: Boolean
-  Specifies which action on the source table triggered creating the webhook trigger
-- Source Rename
-  Data Type: Boolean
-  Specifies which action on the source table triggered creating the webhook trigger
+- Source Table Trigger Type
+  Data Type: Enum
+  Specifies the trigger type for the source table. When the source table a related table, all trigger types of the source table are considered to be a modification trigger.
 
 A non-editable list page with the name "Webhook Triggers PTE" that has UsageCategory Tasks contains all the mentioned fields.
 
-An API page must be created with ChangeTrackingEnabled. This is the api which will be used by external systems to subscribe webhooks on.
+## Webhook Trigger API
+All elements regarding the webhook trigger can be found in the folder /src/api/.
+
+An API page "Webhook Trigger API PTE" is available ChangeTrackingEnabled=true. 
+This webhook trigger page must contain all fields avaiThis is the api which will be used by external systems to subscribe webhooks on.
