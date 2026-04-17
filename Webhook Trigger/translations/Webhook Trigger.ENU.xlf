@@ -123,6 +123,216 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Subform PTE - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2326306086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Trigger</source>
+          <target state="translated">Webhook Trigger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 3348941625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique identifier for the webhook trigger record.</source>
+          <target state="translated">Specifies the unique identifier for the webhook trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="translated">Key</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2649378047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the record id of the table that was the source for creating or modifying the webhook trigger record.</source>
+          <target state="translated">Specifies the record id of the table that was the source for creating or modifying the webhook trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Record ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2649378047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record ID</source>
+          <target state="translated">Source Record ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1173385532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the trigger type of the source record.</source>
+          <target state="translated">Specifies the trigger type of the source record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Record Trigger Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1173385532 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record Trigger Type</source>
+          <target state="translated">Source Record Trigger Type</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Record Trigger Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 3915954711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the system id of the table that was the source for creating or modifying the webhook trigger record.</source>
+          <target state="translated">Specifies the system id of the table that was the source for creating or modifying the webhook trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source System ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 3915954711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source System ID</source>
+          <target state="translated">Source System ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source System ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 90601618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the id of the table that was the source for creating or modifying the webhook trigger record.</source>
+          <target state="translated">Specifies the id of the table that was the source for creating or modifying the webhook trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 90601618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table ID</source>
+          <target state="translated">Source Table ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2311163528 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the table that was the source for creating or modifying the webhook trigger record.</source>
+          <target state="translated">Specifies the name of the table that was the source for creating or modifying the webhook trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2311163528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table Name</source>
+          <target state="translated">Source Table Name</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Source Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 636600169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a chronological guid that enables changing the webhook trigger record when the exact values were already present.</source>
+          <target state="translated">Specifies a chronological guid that enables changing the webhook trigger record when the exact values were already present.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Guid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 636600169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Guid</source>
+          <target state="translated">Trigger Guid</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Guid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1629634684 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the record id of the trigger table record.</source>
+          <target state="translated">Specifies the record id of the trigger table record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Record ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1629634684 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Record ID</source>
+          <target state="translated">Trigger Record ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2425679487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the trigger type of the trigger record. Modifications on referenced source records are considered to be modifications of the trigger record.</source>
+          <target state="translated">Specifies the trigger type of the trigger record. Modifications on referenced source records are considered to be modifications of the trigger record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Record Trigger Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2425679487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Record Trigger Type</source>
+          <target state="translated">Trigger Record Trigger Type</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Record Trigger Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1410332772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the system id of the trigger table record.</source>
+          <target state="translated">Specifies the system id of the trigger table record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger System ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1410332772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger System ID</source>
+          <target state="translated">Trigger System ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger System ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2638756149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the id of the webhook trigger table.</source>
+          <target state="translated">Specifies the id of the webhook trigger table.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 2638756149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Table ID</source>
+          <target state="translated">Trigger Table ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1389839803 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the webhook trigger table.</source>
+          <target state="translated">Specifies the name of the webhook trigger table.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2326306086 - Field 1389839803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Table Name</source>
+          <target state="translated">Trigger Table Name</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Webhook Trigger PTE - Field Trigger Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 993044904 - Method 2466519627 - NamedType 3086330205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record does not exist anymore: %1</source>
+          <target state="translated">Record does not exist anymore: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1=RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Webhook Trigger Helper PTE - Method OpenRecord - NamedType RecordDoesNotExistErr</note>
+        </trans-unit>
+        <trans-unit id="Page 459620043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webhook Triggers</source>
+          <target state="translated">Webhook Triggers</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Triggers PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 459620043 - Action 2165125476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the source record, if it still exists.</source>
+          <target state="translated">Opens the source record, if it still exists.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Triggers PTE - Action SourceRecord - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 459620043 - Action 2165125476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record</source>
+          <target state="translated">Source Record</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Triggers PTE - Action SourceRecord - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 459620043 - Action 2332362951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the trigger record, if it still exists.</source>
+          <target state="translated">Opens the trigger record, if it still exists.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Triggers PTE - Action TriggerRecord - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 459620043 - Action 2332362951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Record</source>
+          <target state="translated">Trigger Record</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Webhook Triggers PTE - Action TriggerRecord - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3370703214 - EnumValue 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Delete</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Webhook Trigger Type PTE - EnumValue Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3370703214 - EnumValue 2049086889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert</source>
+          <target state="translated">Insert</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Webhook Trigger Type PTE - EnumValue Insert - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3370703214 - EnumValue 3817527484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modify</source>
+          <target state="translated">Modify</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Webhook Trigger Type PTE - EnumValue Modify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3370703214 - EnumValue 3194217980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">Rename</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Webhook Trigger Type PTE - EnumValue Rename - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2326306086 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Webhook Trigger</source>
           <target state="translated">Webhook Trigger</target>
